@@ -18,7 +18,9 @@ import Root from "./Root.jsx";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-      <Route index element={<Hero />} />
+      <Route index element={<Hero />} > 
+      
+       </Route>
       <Route path="about" element={<About />} />
       <Route path="careers" element={<Careers />} />
       <Route path="security" element={<Security />} />

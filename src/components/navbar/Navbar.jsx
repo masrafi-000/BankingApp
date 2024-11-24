@@ -68,7 +68,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <NavLink
+          <button
             onClick={() => setToggleMenu(!toggleMenu)}
             className={`flex items-center justify-center h-10 w-[56px] bg-primary_green-60 text-primary_dark_gray-10 rounded-full cursor-pointer md:hidden `}
           >
@@ -86,7 +86,7 @@ const Navbar = () => {
                 d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25"
               />
             </svg>
-          </NavLink>
+          </button>
         </div>
       </div>
 
